@@ -1,0 +1,5 @@
+PrizeName,PrizeLine1,PrizeLine2,PrizeLine3,PrizeIdentifier,Description,Quantity,EnforceQuantity,ScreenTimeout,PrintReceipt,ReceiptMessage,ScreenMessage1,ScreenMessage2,ScreenMessage3,Prizetype,ValueofPrize,RedemptionCode,MarkRedeemedOnWin,Cost,MaxTimeToClaimPrizeType,MaxTimeToClaimPrizeValue,IncentiveID,QualificationStartTime,QualificationEndTime,QualificationTier,QualifierAmountLow,QualifierAmountHigh,LimitPerCustomer,LimitType,LimitTimes,GroupName,ParentPrizeIdentifier,PromotionId,DrawingId,NumberOfEntries
+Automationprize1,You,Won1,PointAdd,1,,1,FALSE,10,FALSE,Congrats,You,have,won,3,1,1,,1,,,,,,,,,,,,,,,,
+Automationprize2,You2,Won2,"Prizes,Vouchers",2,,1,TRUE,10,TRUE,Congrats2,You2,have2,won2,1,2,2,,2,None,,,,,,,,,,,,,,,
+Automationprize3,You3,Won3,PointDeduct,3,,1,TRUE,10,TRUE,Congrats3,You3,have3,won3,9,3,3,,3,None,,,,,,,,,,,,,,,
+AutomationPromoEnrollmentprize4,You4,Won4,PromoEnrollment,4,,2,TRUE,11,TRUE,Congrats4,You4,have4,won4,5,,,,,,,,,,,,,,,,,,3270,,

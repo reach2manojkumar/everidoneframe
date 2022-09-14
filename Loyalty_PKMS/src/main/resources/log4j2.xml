@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	<Properties>
+		<Property name="PROJECTNAME">ATM_Automate</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<File name="FILE" fileName="src/main/resources/log/${PROJECTNAME}-${date:yyyy-MM-dd'_'HH-mm-ss}.log" immediateFlush="false" append="false">
+			<PatternLayout pattern="%d{yyyy-MM-dd'_'HH-mm-ss} [%t] %-5level %logger{36} - %msg%n"/>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FILE"/>
+		</Root>
+	</Loggers>
+</Configuration>
